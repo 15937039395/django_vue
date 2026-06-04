@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北京市",
+        "center": [116.4074, 39.9042],
+        "adcode": 110000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4074, 39.9042]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "上海市",
+        "center": [121.4737, 31.2304],
+        "adcode": 310000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4737, 31.2304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "广州市",
+        "center": [113.2806, 23.1258],
+        "adcode": 440100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.2806, 23.1258]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "深圳市",
+        "center": [114.0859, 22.5470],
+        "adcode": 440300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.0859, 22.5470]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "杭州市",
+        "center": [120.1536, 30.2875],
+        "adcode": 330100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.1536, 30.2875]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "成都市",
+        "center": [104.0659, 30.6599],
+        "adcode": 510100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.0659, 30.6599]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "武汉市",
+        "center": [114.3054, 30.5976],
+        "adcode": 420100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.3054, 30.5976]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "西安市",
+        "center": [108.9480, 34.2632],
+        "adcode": 610100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.9480, 34.2632]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "南京市",
+        "center": [118.7969, 32.0603],
+        "adcode": 320100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118.7969, 32.0603]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "重庆市",
+        "center": [106.5505, 29.5638],
+        "adcode": 500000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.5505, 29.5638]
+      }
+    }
+  ]
+}

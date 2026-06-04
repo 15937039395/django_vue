@@ -1,0 +1,363 @@
+/* 公司品牌色主题样式 */
+:root {
+  /* 主题颜色定义 - 基于公司品牌色 */
+  --brand-green: #19a974;      /* 绿色 - 主要绿色 */
+  --brand-blue: #1890ff;       /* 蓝色 - 主要蓝色 */
+  --brand-red: #f5222d;        /* 红色 - 主要红色 */
+  --brand-gold: #faad14;       /* 金色 - 主要金色 */
+
+  /* 辅助颜色 */
+  --brand-green-light: #e6f7ee;
+  --brand-green-dark: #0d865d;
+  --brand-blue-light: #e6f7ff;
+  --brand-blue-dark: #096dd9;
+  --brand-red-light: #fff1f0;
+  --brand-red-dark: #d9363e;
+  --brand-gold-light: #fffbe6;
+  --brand-gold-dark: #d48806;
+
+  /* Element Plus 主题色 */
+  --el-color-primary: var(--brand-blue);
+  --el-color-success: var(--brand-green);
+  --el-color-warning: var(--brand-gold);
+  --el-color-danger: var(--brand-red);
+  --el-color-info: #909399;
+}
+
+/* 应用品牌色到 Element Plus 组件 */
+.el-button--primary {
+  --el-button-bg-color: var(--brand-blue);
+  --el-button-border-color: var(--brand-blue);
+  --el-button-hover-bg-color: var(--brand-blue-light);
+  --el-button-hover-border-color: var(--brand-blue-dark);
+  --el-button-active-bg-color: var(--brand-blue-dark);
+  --el-button-active-border-color: var(--brand-blue-dark);
+}
+
+.el-button--success {
+  --el-button-bg-color: var(--brand-green);
+  --el-button-border-color: var(--brand-green);
+  --el-button-hover-bg-color: var(--brand-green-light);
+  --el-button-hover-border-color: var(--brand-green-dark);
+  --el-button-active-bg-color: var(--brand-green-dark);
+  --el-button-active-border-color: var(--brand-green-dark);
+}
+
+.el-button--warning {
+  --el-button-bg-color: var(--brand-gold);
+  --el-button-border-color: var(--brand-gold);
+  --el-button-hover-bg-color: var(--brand-gold-light);
+  --el-button-hover-border-color: var(--brand-gold-dark);
+  --el-button-active-bg-color: var(--brand-gold-dark);
+  --el-button-active-border-color: var(--brand-gold-dark);
+}
+
+.el-button--danger {
+  --el-button-bg-color: var(--brand-red);
+  --el-button-border-color: var(--brand-red);
+  --el-button-hover-bg-color: var(--brand-red-light);
+  --el-button-hover-border-color: var(--brand-red-dark);
+  --el-button-active-bg-color: var(--brand-red-dark);
+  --el-button-active-border-color: var(--brand-red-dark);
+}
+
+/* 应用品牌色到标签 */
+.el-tag--success {
+  --el-tag-bg-color: var(--brand-green-light);
+  --el-tag-border-color: var(--brand-green);
+  --el-tag-text-color: var(--brand-green-dark);
+}
+
+.el-tag--warning {
+  --el-tag-bg-color: var(--brand-gold-light);
+  --el-tag-border-color: var(--brand-gold);
+  --el-tag-text-color: var(--brand-gold-dark);
+}
+
+.el-tag--danger {
+  --el-tag-bg-color: var(--brand-red-light);
+  --el-tag-border-color: var(--brand-red);
+  --el-tag-text-color: var(--brand-red-dark);
+}
+
+/* 应用品牌色到进度条 */
+.el-progress-bar__outer {
+  background-color: #f0f0f0 !important;
+}
+
+.el-progress-bar__inner {
+  background-color: var(--brand-blue) !important;
+}
+
+.el-progress--success .el-progress-bar__inner {
+  background-color: var(--brand-green) !important;
+}
+
+.el-progress--warning .el-progress-bar__inner {
+  background-color: var(--brand-gold) !important;
+}
+
+.el-progress--exception .el-progress-bar__inner {
+  background-color: var(--brand-red) !important;
+}
+
+/* 应用品牌色到消息提示 */
+.el-message--success {
+  background-color: var(--brand-green-light);
+  border-color: var(--brand-green);
+  color: var(--brand-green-dark);
+}
+
+.el-message--warning {
+  background-color: var(--brand-gold-light);
+  border-color: var(--brand-gold);
+  color: var(--brand-gold-dark);
+}
+
+.el-message--error {
+  background-color: var(--brand-red-light);
+  border-color: var(--brand-red);
+  color: var(--brand-red-dark);
+}
+
+.el-message--info {
+  background-color: #f4f4f5;
+  border-color: #e9e9eb;
+  color: #909399;
+}
+
+/* 应用品牌色到通知 */
+.el-notification--success {
+  background-color: var(--brand-green-light);
+  border-color: var(--brand-green);
+  color: var(--brand-green-dark);
+}
+
+.el-notification--warning {
+  background-color: var(--brand-gold-light);
+  border-color: var(--brand-gold);
+  color: var(--brand-gold-dark);
+}
+
+.el-notification--error {
+  background-color: var(--brand-red-light);
+  border-color: var(--brand-red);
+  color: var(--brand-red-dark);
+}
+
+/* 应用品牌色到卡片头部 */
+.el-card__header {
+  background-color: #fafafa;
+  border-bottom: 1px solid var(--brand-blue-light);
+}
+
+/* 应用品牌色到输入框焦点状态 */
+.el-input.is-focus .el-input__wrapper {
+  box-shadow: 0 0 0 1px var(--brand-blue) inset;
+}
+
+/* 应用品牌色到导航菜单 */
+.el-menu {
+  --el-menu-bg-color: #ffffff;
+  --el-menu-hover-bg-color: var(--brand-blue-light);
+  --el-menu-text-color: #303133;
+  --el-menu-active-color: var(--brand-blue);
+}
+
+/* 应用品牌色到面包屑 */
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  color: var(--brand-blue) !important;
+}
+
+.el-breadcrumb__inner:hover,
+.el-breadcrumb__inner a:hover {
+  color: var(--brand-blue-dark) !important;
+}
+
+/* 应用品牌色到分页 */
+.el-pagination .btn-next,
+.el-pagination .btn-prev,
+.el-pagination .el-pager li {
+  color: var(--brand-blue);
+}
+
+.el-pagination .el-pager li:not(.disabled).active {
+  background-color: var(--brand-blue);
+}
+
+/* 应用品牌色到表格 */
+.el-table th {
+  background-color: #f8f9fa;
+  color: #606266;
+}
+
+.el-table .el-table__row--striped td {
+  background-color: #fafafa;
+}
+
+.el-table .current-row {
+  background-color: var(--brand-blue-light) !important;
+}
+
+/* 应用品牌色到弹窗标题 */
+.el-dialog__header {
+  background-color: var(--brand-blue-light);
+  padding: 15px 20px !important;
+  border-radius: 4px 4px 0 0;
+}
+
+.el-dialog__title {
+  color: var(--brand-blue-dark);
+  font-weight: 600;
+}
+
+/* 应用品牌色到页眉页脚 */
+.app-header {
+  background-color: var(--brand-blue) !important;
+  color: white !important;
+}
+
+.app-footer {
+  background-color: #f5f5f5;
+  border-top: 1px solid #e0e0e0;
+  color: #666;
+}
+
+/* 应用品牌色到侧边栏 */
+.el-aside {
+  background-color: #ffffff;
+  border-right: 1px solid #e6e6e6;
+}
+
+/* 应用品牌色到链接 */
+a {
+  color: var(--brand-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--brand-blue-dark);
+}
+
+/* 应用品牌色到各种状态指示器 */
+.status-normal {
+  color: var(--brand-green);
+}
+
+.status-warning {
+  color: var(--brand-gold);
+}
+
+.status-error {
+  color: var(--brand-red);
+}
+
+.status-processing {
+  color: var(--brand-blue);
+}
+
+/* 自定义品牌色按钮变体 */
+.btn-brand-green {
+  background-color: var(--brand-green);
+  border-color: var(--brand-green);
+  color: white;
+}
+
+.btn-brand-green:hover,
+.btn-brand-green:focus {
+  background-color: var(--brand-green-dark);
+  border-color: var(--brand-green-dark);
+  color: white;
+}
+
+.btn-brand-blue {
+  background-color: var(--brand-blue);
+  border-color: var(--brand-blue);
+  color: white;
+}
+
+.btn-brand-blue:hover,
+.btn-brand-blue:focus {
+  background-color: var(--brand-blue-dark);
+  border-color: var(--brand-blue-dark);
+  color: white;
+}
+
+.btn-brand-red {
+  background-color: var(--brand-red);
+  border-color: var(--brand-red);
+  color: white;
+}
+
+.btn-brand-red:hover,
+.btn-brand-red:focus {
+  background-color: var(--brand-red-dark);
+  border-color: var(--brand-red-dark);
+  color: white;
+}
+
+.btn-brand-gold {
+  background-color: var(--brand-gold);
+  border-color: var(--brand-gold);
+  color: white;
+}
+
+.btn-brand-gold:hover,
+.btn-brand-gold:focus {
+  background-color: var(--brand-gold-dark);
+  border-color: var(--brand-gold-dark);
+  color: white;
+}
+
+/* 应用品牌色到图表和仪表板元素 */
+.chart-title {
+  color: var(--brand-blue);
+  border-bottom: 2px solid var(--brand-blue-light);
+  padding-bottom: 8px;
+}
+
+/* 应用品牌色到徽章 */
+.el-badge__content {
+  background-color: var(--brand-red);
+}
+
+/* 应用品牌色到开关 */
+.el-switch .el-switch__core {
+  border-color: var(--brand-green);
+  background-color: var(--brand-green);
+}
+
+.el-switch.is-checked .el-switch__core {
+  border-color: var(--brand-blue);
+  background-color: var(--brand-blue);
+}
+
+/* 应用品牌色到滑块 */
+.el-slider__bar {
+  background-color: var(--brand-blue);
+}
+
+.el-slider__button {
+  border: 2px solid var(--brand-blue);
+}
+
+/* 应用品牌色到步骤条 */
+.el-steps .el-step__head.is-finish {
+  color: var(--brand-green);
+  border-color: var(--brand-green);
+}
+
+.el-steps .el-step__head.is-process {
+  color: var(--brand-blue);
+  border-color: var(--brand-blue);
+}
+
+.el-steps .el-step__title.is-process {
+  color: var(--brand-blue);
+}
+
+/* 应用品牌色到评分 */
+.el-rate__item .el-rate__icon {
+  color: var(--brand-gold);
+}

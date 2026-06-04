@@ -1,0 +1,909 @@
+INFO 2026-01-14 11:17:01,652 autoreload 11140 30016 Watching for file changes with StatReloader
+INFO 2026-01-14 11:17:27,822 autoreload 11140 30016 D:\my_project\Django_admin\jj_system\event\views.py changed, reloading.
+INFO 2026-01-14 11:17:28,203 autoreload 26796 35020 Watching for file changes with StatReloader
+INFO 2026-01-14 11:17:45,120 autoreload 26796 35020 D:\my_project\Django_admin\jj_system\event\views.py changed, reloading.
+INFO 2026-01-14 11:17:45,481 autoreload 38228 39324 Watching for file changes with StatReloader
+INFO 2026-01-14 11:23:29,127 basehttp 38228 42684 "OPTIONS /classify/search HTTP/1.1" 200 0
+INFO 2026-01-14 11:23:29,716 basehttp 38228 42684 "POST /classify/search HTTP/1.1" 200 2039
+INFO 2026-01-14 11:23:34,768 basehttp 38228 42684 "POST /event/search HTTP/1.1" 200 1089
+INFO 2026-01-14 11:25:52,824 basehttp 38228 42684 "POST /event/search HTTP/1.1" 200 1089
+INFO 2026-01-14 11:25:56,027 basehttp 38228 42684 "OPTIONS /menu/treeList HTTP/1.1" 200 0
+INFO 2026-01-14 11:25:56,440 basehttp 38228 42684 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 11:25:56,456 basehttp 38228 42684 "OPTIONS /role/menus?id=12 HTTP/1.1" 200 0
+INFO 2026-01-14 11:25:56,846 basehttp 38228 42684 "GET /role/menus?id=12 HTTP/1.1" 200 31
+INFO 2026-01-14 11:25:57,946 basehttp 38228 42684 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 11:25:58,342 basehttp 38228 42684 "GET /role/menus?id=12 HTTP/1.1" 200 31
+INFO 2026-01-14 11:25:59,701 basehttp 38228 42684 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 11:25:59,705 basehttp 38228 42684 "OPTIONS /role/menus?id=7 HTTP/1.1" 200 0
+INFO 2026-01-14 11:26:00,211 basehttp 38228 42684 "GET /role/menus?id=7 HTTP/1.1" 200 31
+INFO 2026-01-14 11:26:00,990 basehttp 38228 42684 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 11:26:01,347 basehttp 38228 42684 "GET /role/menus?id=7 HTTP/1.1" 200 31
+INFO 2026-01-14 11:26:02,050 basehttp 38228 42684 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 11:26:02,054 basehttp 38228 42684 "OPTIONS /role/menus?id=3 HTTP/1.1" 200 0
+INFO 2026-01-14 11:26:02,477 basehttp 38228 42684 "GET /role/menus?id=3 HTTP/1.1" 200 31
+INFO 2026-01-14 11:26:04,326 basehttp 38228 42684 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 11:26:04,741 basehttp 38228 42684 "GET /role/menus?id=3 HTTP/1.1" 200 31
+INFO 2026-01-14 11:26:06,899 basehttp 38228 42684 "POST /classify/search HTTP/1.1" 200 2039
+INFO 2026-01-14 11:26:08,822 basehttp 38228 42684 "POST /event/search HTTP/1.1" 200 1089
+INFO 2026-01-14 11:26:11,866 basehttp 38228 42684 "GET /event/dept/list HTTP/1.1" 200 488
+INFO 2026-01-14 11:26:11,971 basehttp 38228 29076 "GET /event/user/list HTTP/1.1" 200 1376
+INFO 2026-01-14 11:26:11,981 basehttp 38228 29076 "OPTIONS /event/action?id=12 HTTP/1.1" 200 0
+INFO 2026-01-14 11:26:12,478 basehttp 38228 29076 "GET /event/action?id=12 HTTP/1.1" 200 283
+INFO 2026-01-14 11:26:40,073 basehttp 38228 29076 "GET /event/action?id=12 HTTP/1.1" 200 283
+INFO 2026-01-14 11:26:58,787 basehttp 38228 29076 "GET /event/action?id=12 HTTP/1.1" 200 283
+INFO 2026-01-14 11:27:20,240 basehttp 38228 29076 "GET /event/dept/list HTTP/1.1" 200 488
+INFO 2026-01-14 11:27:20,240 basehttp 38228 42684 "GET /event/user/list HTTP/1.1" 200 1376
+INFO 2026-01-14 11:27:20,708 basehttp 38228 29076 "GET /event/action?id=7 HTTP/1.1" 200 296
+INFO 2026-01-14 11:32:48,220 basehttp 38228 37560 "POST /event/search HTTP/1.1" 200 1089
+INFO 2026-01-14 11:33:37,312 basehttp 38228 37560 "POST /event/search HTTP/1.1" 200 1089
+INFO 2026-01-14 11:33:41,099 basehttp 38228 37560 "GET /event/dept/list HTTP/1.1" 200 488
+INFO 2026-01-14 11:33:41,159 basehttp 38228 12460 "GET /event/user/list HTTP/1.1" 200 1376
+INFO 2026-01-14 11:33:55,111 basehttp 38228 12460 "POST /event/save HTTP/1.1" 200 13
+INFO 2026-01-14 11:33:56,147 basehttp 38228 12460 "POST /event/search HTTP/1.1" 200 1423
+INFO 2026-01-14 11:35:11,385 basehttp 38228 12460 "POST /event/save HTTP/1.1" 200 13
+INFO 2026-01-14 11:35:12,386 basehttp 38228 12460 "POST /event/search HTTP/1.1" 200 1762
+INFO 2026-01-14 11:40:02,443 basehttp 38228 38364 "POST /event/search HTTP/1.1" 200 1762
+INFO 2026-01-14 11:40:04,455 basehttp 38228 38364 "GET /event/dept/list HTTP/1.1" 200 488
+INFO 2026-01-14 11:40:04,503 basehttp 38228 17608 "GET /event/user/list HTTP/1.1" 200 1376
+INFO 2026-01-14 11:40:16,216 basehttp 38228 17608 "OPTIONS /event/action?id=14 HTTP/1.1" 200 0
+INFO 2026-01-14 11:40:16,783 basehttp 38228 17608 "GET /event/action?id=14 HTTP/1.1" 200 279
+INFO 2026-01-14 11:40:23,261 basehttp 38228 17608 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 11:40:24,032 basehttp 38228 17608 "GET /role/menus?id=7 HTTP/1.1" 200 31
+INFO 2026-01-14 11:40:25,222 basehttp 38228 17608 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 11:40:25,880 basehttp 38228 17608 "GET /role/menus?id=7 HTTP/1.1" 200 31
+INFO 2026-01-14 11:40:26,674 basehttp 38228 17608 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 11:40:27,244 basehttp 38228 17608 "GET /role/menus?id=7 HTTP/1.1" 200 31
+INFO 2026-01-14 11:40:28,601 basehttp 38228 17608 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 11:40:29,179 basehttp 38228 17608 "GET /role/menus?id=7 HTTP/1.1" 200 31
+INFO 2026-01-14 11:41:26,454 basehttp 38228 17608 "POST /event/search HTTP/1.1" 200 1762
+INFO 2026-01-14 11:41:28,509 basehttp 38228 38364 "GET /event/user/list HTTP/1.1" 200 1376
+INFO 2026-01-14 11:41:28,509 basehttp 38228 17608 "GET /event/dept/list HTTP/1.1" 200 488
+INFO 2026-01-14 11:41:32,625 basehttp 38228 17608 "GET /event/action?id=14 HTTP/1.1" 200 279
+INFO 2026-01-14 11:55:15,644 basehttp 38228 15128 "POST /event/search HTTP/1.1" 200 1762
+INFO 2026-01-14 13:15:49,560 basehttp 38228 13756 "OPTIONS /event/search HTTP/1.1" 200 0
+INFO 2026-01-14 13:15:49,561 basehttp 38228 13756 "POST /event/search HTTP/1.1" 200 65
+INFO 2026-01-14 13:15:49,574 basehttp 38228 13756 "POST /event/search HTTP/1.1" 200 65
+INFO 2026-01-14 13:18:02,641 basehttp 38228 13756 "POST /event/search HTTP/1.1" 200 65
+INFO 2026-01-14 13:18:02,654 basehttp 38228 13756 "POST /event/search HTTP/1.1" 200 65
+INFO 2026-01-14 13:18:06,279 basehttp 38228 13756 "OPTIONS /user/login?username=admin&password=1234567&rememberMe=true HTTP/1.1" 200 0
+INFO 2026-01-14 13:18:06,899 basehttp 38228 13756 "POST /user/login?username=admin&password=1234567&rememberMe=true HTTP/1.1" 200 5215
+INFO 2026-01-14 13:18:13,687 basehttp 38228 13756 "POST /classify/search HTTP/1.1" 200 2039
+INFO 2026-01-14 13:18:15,716 basehttp 38228 13756 "POST /event/search HTTP/1.1" 200 1762
+INFO 2026-01-14 13:18:28,414 basehttp 38228 13756 "OPTIONS /event/action HTTP/1.1" 200 0
+INFO 2026-01-14 13:18:29,542 basehttp 38228 13756 "DELETE /event/action HTTP/1.1" 200 13
+INFO 2026-01-14 13:18:30,071 basehttp 38228 13756 "POST /event/search HTTP/1.1" 200 1419
+INFO 2026-01-14 13:18:33,165 basehttp 38228 13756 "DELETE /event/action HTTP/1.1" 200 13
+INFO 2026-01-14 13:18:33,912 basehttp 38228 13756 "POST /event/search HTTP/1.1" 200 1085
+INFO 2026-01-14 13:18:37,249 basehttp 38228 13756 "DELETE /event/action HTTP/1.1" 200 13
+INFO 2026-01-14 13:18:38,037 basehttp 38228 13756 "POST /event/search HTTP/1.1" 200 746
+INFO 2026-01-14 13:21:40,205 basehttp 38228 13756 "OPTIONS /repository/search HTTP/1.1" 200 0
+INFO 2026-01-14 13:21:41,573 basehttp 38228 13756 "POST /repository/search HTTP/1.1" 200 62950
+INFO 2026-01-14 13:21:42,473 basehttp 38228 13756 "OPTIONS /repository/dept/list HTTP/1.1" 200 0
+INFO 2026-01-14 13:21:42,474 basehttp 38228 12060 "OPTIONS /repository/user/list HTTP/1.1" 200 0
+INFO 2026-01-14 13:21:43,502 basehttp 38228 13756 "GET /repository/dept/list HTTP/1.1" 200 488
+INFO 2026-01-14 13:21:43,560 basehttp 38228 12060 "GET /repository/user/list HTTP/1.1" 200 1376
+INFO 2026-01-14 13:22:07,875 basehttp 38228 12060 "POST /event/search HTTP/1.1" 200 746
+INFO 2026-01-14 13:33:07,762 basehttp 38228 22428 "OPTIONS /event/dept/list HTTP/1.1" 200 0
+INFO 2026-01-14 13:33:07,762 basehttp 38228 40196 "OPTIONS /event/user/list HTTP/1.1" 200 0
+INFO 2026-01-14 13:33:08,779 basehttp 38228 40196 "GET /event/dept/list HTTP/1.1" 200 488
+INFO 2026-01-14 13:33:08,779 basehttp 38228 22428 "GET /event/user/list HTTP/1.1" 200 1376
+INFO 2026-01-14 13:34:25,550 basehttp 38228 22428 "POST /event/search HTTP/1.1" 200 746
+INFO 2026-01-14 13:34:30,077 basehttp 38228 22428 "OPTIONS /role/search HTTP/1.1" 200 0
+INFO 2026-01-14 13:34:30,646 basehttp 38228 22428 "POST /role/search HTTP/1.1" 200 1298
+INFO 2026-01-14 13:34:40,958 basehttp 38228 22428 "POST /event/search HTTP/1.1" 200 746
+INFO 2026-01-14 13:44:04,599 basehttp 38228 41096 "POST /event/search HTTP/1.1" 200 746
+INFO 2026-01-14 13:44:36,213 basehttp 38228 41096 "POST /event/search HTTP/1.1" 200 746
+INFO 2026-01-14 13:44:41,069 basehttp 38228 41096 "POST /event/search HTTP/1.1" 200 746
+INFO 2026-01-14 13:44:42,613 basehttp 38228 41096 "GET /event/dept/list HTTP/1.1" 200 488
+INFO 2026-01-14 13:44:42,650 basehttp 38228 32660 "GET /event/user/list HTTP/1.1" 200 1376
+INFO 2026-01-14 13:44:51,013 basehttp 38228 13756 "OPTIONS /event/save HTTP/1.1" 200 0
+INFO 2026-01-14 13:44:51,521 basehttp 38228 13756 "POST /event/save HTTP/1.1" 200 13
+INFO 2026-01-14 13:44:52,148 basehttp 38228 13756 "POST /event/search HTTP/1.1" 200 1083
+INFO 2026-01-14 13:45:04,228 basehttp 38228 13756 "POST /event/save HTTP/1.1" 200 13
+INFO 2026-01-14 13:45:04,977 basehttp 38228 13756 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 13:45:29,472 basehttp 38228 13756 "OPTIONS /event/action?id=16 HTTP/1.1" 200 0
+INFO 2026-01-14 13:45:29,984 basehttp 38228 13756 "GET /event/action?id=16 HTTP/1.1" 200 277
+INFO 2026-01-14 13:46:22,188 basehttp 38228 13756 "OPTIONS /menu/treeList HTTP/1.1" 200 0
+INFO 2026-01-14 13:46:22,772 basehttp 38228 13756 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:46:22,787 basehttp 38228 13756 "OPTIONS /role/menus?id=3 HTTP/1.1" 200 0
+INFO 2026-01-14 13:46:23,201 basehttp 38228 13756 "GET /role/menus?id=3 HTTP/1.1" 200 31
+INFO 2026-01-14 13:46:24,439 basehttp 38228 13756 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:46:24,855 basehttp 38228 13756 "GET /role/menus?id=3 HTTP/1.1" 200 31
+INFO 2026-01-14 13:47:09,197 autoreload 38228 39324 D:\my_project\Django_admin\jj_system\event\views.py changed, reloading.
+INFO 2026-01-14 13:47:09,808 autoreload 23976 15004 Watching for file changes with StatReloader
+INFO 2026-01-14 13:48:15,694 basehttp 23976 9032 "POST /role/search HTTP/1.1" 200 1298
+INFO 2026-01-14 13:48:18,960 basehttp 23976 9032 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:48:18,970 basehttp 23976 9032 "OPTIONS /role/menus?id=2 HTTP/1.1" 200 0
+INFO 2026-01-14 13:48:19,595 basehttp 23976 9032 "GET /role/menus?id=2 HTTP/1.1" 200 36
+INFO 2026-01-14 13:48:28,174 basehttp 23976 9032 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:48:28,606 basehttp 23976 9032 "GET /role/menus?id=2 HTTP/1.1" 200 36
+INFO 2026-01-14 13:50:12,500 autoreload 23976 15004 D:\my_project\Django_admin\jj_system\role\views.py changed, reloading.
+INFO 2026-01-14 13:50:13,105 autoreload 13188 28020 Watching for file changes with StatReloader
+INFO 2026-01-14 13:50:22,159 basehttp 13188 7836 "OPTIONS /classify/search HTTP/1.1" 200 0
+INFO 2026-01-14 13:50:22,735 basehttp 13188 7836 "POST /classify/search HTTP/1.1" 200 2039
+INFO 2026-01-14 13:50:25,131 basehttp 13188 7836 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 13:50:28,806 basehttp 13188 7836 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:50:28,816 basehttp 13188 7836 "OPTIONS /role/menus?id=16 HTTP/1.1" 200 0
+INFO 2026-01-14 13:50:29,612 basehttp 13188 7836 "GET /role/menus?id=16 HTTP/1.1" 200 31
+INFO 2026-01-14 13:51:28,652 basehttp 13188 7836 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:51:29,448 basehttp 13188 7836 "GET /role/menus?id=16 HTTP/1.1" 200 31
+INFO 2026-01-14 13:51:54,842 basehttp 13188 7836 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:51:54,847 basehttp 13188 7836 "OPTIONS /role/menus?id=15 HTTP/1.1" 200 0
+INFO 2026-01-14 13:51:55,254 basehttp 13188 7836 "GET /role/menus?id=15 HTTP/1.1" 200 31
+INFO 2026-01-14 13:51:59,056 basehttp 13188 7836 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:51:59,933 basehttp 13188 7836 "GET /role/menus?id=15 HTTP/1.1" 200 31
+INFO 2026-01-14 13:52:39,153 autoreload 13188 28020 D:\my_project\Django_admin\jj_system\role\views.py changed, reloading.
+INFO 2026-01-14 13:52:39,654 autoreload 21612 33720 Watching for file changes with StatReloader
+INFO 2026-01-14 13:52:49,469 basehttp 21612 40160 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:52:51,039 basehttp 21612 40160 "GET /role/menus?id=16 HTTP/1.1" 200 31
+INFO 2026-01-14 13:52:59,314 basehttp 21612 40160 "OPTIONS /role/grant HTTP/1.1" 200 0
+ERROR 2026-01-14 13:53:00,659 log 21612 40160 Internal Server Error: /role/grant
+Traceback (most recent call last):
+  File "D:\soft\python\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "D:\soft\python\Lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+MySQLdb.IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`test`.`sys_role_menu`, CONSTRAINT `sys_role_menu_role_id_e0dcb43b_fk_sys_role_id` FOREIGN KEY (`role_id`) REFERENCES `sys_role` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\soft\python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\my_project\Django_admin\jj_system\role\views.py", line 109, in post
+    roleMenu.save()
+  File "D:\soft\python\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+  File "D:\soft\python\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\db\models\query.py", line 1868, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\soft\python\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\soft\python\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\soft\python\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\db\backends\mysql\base.py", line 76, in execute
+    return self.cursor.execute(query, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\MySQLdb\cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\MySQLdb\cursors.py", line 330, in _query
+    db.query(q)
+  File "D:\soft\python\Lib\site-packages\MySQLdb\connections.py", line 280, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1452, 'Cannot add or update a child row: a foreign key constraint fails (`test`.`sys_role_menu`, CONSTRAINT `sys_role_menu_role_id_e0dcb43b_fk_sys_role_id` FOREIGN KEY (`role_id`) REFERENCES `sys_role` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)')
+ERROR 2026-01-14 13:53:00,746 basehttp 21612 40160 "POST /role/grant HTTP/1.1" 500 180010
+INFO 2026-01-14 13:53:19,198 basehttp 21612 40160 "POST /user/login?username=admin&password=1234567&rememberMe=true HTTP/1.1" 200 5215
+INFO 2026-01-14 13:53:22,971 basehttp 21612 40160 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 13:53:32,294 autoreload 21612 33720 D:\my_project\Django_admin\jj_system\role\views.py changed, reloading.
+INFO 2026-01-14 13:53:32,895 autoreload 24684 8460 Watching for file changes with StatReloader
+INFO 2026-01-14 13:53:58,505 autoreload 24684 8460 D:\my_project\Django_admin\jj_system\role\views.py changed, reloading.
+INFO 2026-01-14 13:53:58,924 autoreload 3876 37300 Watching for file changes with StatReloader
+INFO 2026-01-14 13:55:03,941 autoreload 3876 37300 D:\my_project\Django_admin\jj_system\role\views.py changed, reloading.
+INFO 2026-01-14 13:55:04,381 autoreload 14616 33532 Watching for file changes with StatReloader
+INFO 2026-01-14 13:55:07,027 basehttp 14616 41240 "POST /role/search HTTP/1.1" 200 1298
+INFO 2026-01-14 13:55:46,052 autoreload 14616 33532 D:\my_project\Django_admin\jj_system\event\views.py changed, reloading.
+INFO 2026-01-14 13:55:46,581 autoreload 20736 22864 Watching for file changes with StatReloader
+INFO 2026-01-14 13:55:47,601 basehttp 20736 29252 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:55:48,164 basehttp 20736 29252 "GET /role/menus?id=2 HTTP/1.1" 200 36
+INFO 2026-01-14 13:56:00,230 basehttp 20736 29252 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:56:00,585 basehttp 20736 29252 "GET /role/menus?id=2 HTTP/1.1" 200 36
+INFO 2026-01-14 13:56:29,997 autoreload 20736 22864 D:\my_project\Django_admin\jj_system\role\views.py changed, reloading.
+INFO 2026-01-14 13:56:30,469 autoreload 34260 32380 Watching for file changes with StatReloader
+INFO 2026-01-14 13:56:31,924 basehttp 34260 8028 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:56:31,928 basehttp 34260 8028 "OPTIONS /role/menus?id=32 HTTP/1.1" 200 0
+INFO 2026-01-14 13:56:32,568 basehttp 34260 8028 "GET /role/menus?id=32 HTTP/1.1" 200 44
+INFO 2026-01-14 13:56:34,386 basehttp 34260 8028 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:56:34,763 basehttp 34260 8028 "GET /role/menus?id=32 HTTP/1.1" 200 44
+INFO 2026-01-14 13:56:35,201 basehttp 34260 15784 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:56:35,207 basehttp 34260 15784 "OPTIONS /role/menus?id=31 HTTP/1.1" 200 0
+INFO 2026-01-14 13:56:35,591 basehttp 34260 15784 "GET /role/menus?id=31 HTTP/1.1" 200 40
+INFO 2026-01-14 13:56:37,953 basehttp 34260 15784 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:56:38,385 basehttp 34260 15784 "GET /role/menus?id=31 HTTP/1.1" 200 40
+INFO 2026-01-14 13:56:39,245 basehttp 34260 15784 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:56:39,729 basehttp 34260 15784 "GET /role/menus?id=32 HTTP/1.1" 200 44
+INFO 2026-01-14 13:56:43,436 basehttp 34260 15784 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:56:43,955 basehttp 34260 15784 "GET /role/menus?id=32 HTTP/1.1" 200 44
+INFO 2026-01-14 13:56:44,475 basehttp 34260 15784 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:56:45,123 basehttp 34260 15784 "GET /role/menus?id=31 HTTP/1.1" 200 40
+INFO 2026-01-14 13:56:52,329 basehttp 34260 15784 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:56:53,127 basehttp 34260 15784 "GET /role/menus?id=31 HTTP/1.1" 200 40
+INFO 2026-01-14 13:56:54,433 basehttp 34260 15784 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:56:54,837 basehttp 34260 15784 "GET /role/menus?id=32 HTTP/1.1" 200 44
+INFO 2026-01-14 13:56:57,261 basehttp 34260 15784 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:56:57,920 basehttp 34260 15784 "GET /role/menus?id=32 HTTP/1.1" 200 44
+INFO 2026-01-14 13:57:16,534 autoreload 34260 32380 D:\my_project\Django_admin\jj_system\event\views.py changed, reloading.
+INFO 2026-01-14 13:57:16,946 autoreload 41108 4328 Watching for file changes with StatReloader
+INFO 2026-01-14 13:57:18,681 basehttp 41108 12468 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 13:57:21,695 basehttp 41108 12468 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:57:22,486 basehttp 41108 12468 "GET /role/menus?id=16 HTTP/1.1" 200 31
+INFO 2026-01-14 13:57:29,432 basehttp 41108 12468 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 13:57:29,798 basehttp 41108 12468 "GET /role/menus?id=16 HTTP/1.1" 200 31
+INFO 2026-01-14 13:59:13,040 autoreload 41108 4328 D:\my_project\Django_admin\jj_system\event\views.py changed, reloading.
+INFO 2026-01-14 13:59:13,541 autoreload 26200 20056 Watching for file changes with StatReloader
+INFO 2026-01-14 14:00:06,042 autoreload 26200 20056 D:\my_project\Django_admin\jj_system\event\views.py changed, reloading.
+INFO 2026-01-14 14:00:06,469 autoreload 37644 23776 Watching for file changes with StatReloader
+INFO 2026-01-14 14:01:38,573 autoreload 37644 23776 D:\my_project\Django_admin\jj_system\event\views.py changed, reloading.
+INFO 2026-01-14 14:01:39,088 autoreload 31624 4768 Watching for file changes with StatReloader
+INFO 2026-01-14 14:01:52,078 basehttp 31624 38148 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 14:01:53,034 basehttp 31624 38148 "GET /role/menus?id=16 HTTP/1.1" 200 31
+INFO 2026-01-14 14:02:01,657 basehttp 31624 38148 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 14:02:02,332 basehttp 31624 38148 "GET /role/menus?id=16 HTTP/1.1" 200 31
+INFO 2026-01-14 14:04:08,002 basehttp 31624 38148 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 14:04:08,014 basehttp 31624 38148 "OPTIONS /event/menus?id=16 HTTP/1.1" 200 0
+WARNING 2026-01-14 14:04:08,429 log 31624 38148 Not Found: /event/menus
+WARNING 2026-01-14 14:04:08,429 basehttp 31624 38148 "GET /event/menus?id=16 HTTP/1.1" 404 5432
+INFO 2026-01-14 14:05:46,482 autoreload 31624 4768 D:\my_project\Django_admin\jj_system\event\urls.py changed, reloading.
+INFO 2026-01-14 14:05:46,920 autoreload 38288 21584 Watching for file changes with StatReloader
+INFO 2026-01-14 14:07:27,797 autoreload 38288 21584 D:\my_project\Django_admin\jj_system\event\urls.py changed, reloading.
+INFO 2026-01-14 14:07:28,306 autoreload 10832 10096 Watching for file changes with StatReloader
+INFO 2026-01-14 14:07:33,878 basehttp 10832 30744 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 14:07:33,889 basehttp 10832 30744 "OPTIONS /event/user?id=16 HTTP/1.1" 200 0
+WARNING 2026-01-14 14:07:34,255 log 10832 30744 Not Found: /event/user
+WARNING 2026-01-14 14:07:34,256 basehttp 10832 30744 "GET /event/user?id=16 HTTP/1.1" 404 5687
+INFO 2026-01-14 14:07:36,239 basehttp 10832 30744 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 14:07:38,477 basehttp 10832 30744 "GET /menu/treeList HTTP/1.1" 200 4276
+WARNING 2026-01-14 14:07:39,283 log 10832 30744 Not Found: /event/user
+WARNING 2026-01-14 14:07:39,284 basehttp 10832 30744 "GET /event/user?id=16 HTTP/1.1" 404 5687
+INFO 2026-01-14 14:09:48,392 basehttp 10832 30744 "POST /event/search HTTP/1.1" 200 1426
+WARNING 2026-01-14 14:09:50,414 log 10832 30744 Not Found: /event/user
+WARNING 2026-01-14 14:09:50,414 basehttp 10832 30744 "GET /event/user?id=16 HTTP/1.1" 404 5687
+INFO 2026-01-14 14:13:29,433 basehttp 10832 30744 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 14:16:44,760 autoreload 10832 10096 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:16:45,390 autoreload 15800 13080 Watching for file changes with StatReloader
+INFO 2026-01-14 14:19:50,703 autoreload 15800 13080 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:19:51,206 autoreload 10320 27068 Watching for file changes with StatReloader
+INFO 2026-01-14 14:19:57,802 autoreload 10320 27068 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:19:58,265 autoreload 12580 42200 Watching for file changes with StatReloader
+INFO 2026-01-14 14:22:47,826 autoreload 12580 42200 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:22:48,239 autoreload 32296 13416 Watching for file changes with StatReloader
+INFO 2026-01-14 14:23:18,082 autoreload 32296 13416 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:23:18,651 autoreload 27692 22860 Watching for file changes with StatReloader
+INFO 2026-01-14 14:25:28,043 autoreload 27692 22860 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:25:28,509 autoreload 35108 34212 Watching for file changes with StatReloader
+INFO 2026-01-14 14:28:03,035 autoreload 35108 34212 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:28:03,486 autoreload 35520 42900 Watching for file changes with StatReloader
+INFO 2026-01-14 14:28:10,102 autoreload 35520 42900 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:28:10,531 autoreload 40820 35328 Watching for file changes with StatReloader
+INFO 2026-01-14 14:29:59,882 autoreload 40820 35328 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:30:00,332 autoreload 4964 33496 Watching for file changes with StatReloader
+INFO 2026-01-14 14:31:35,034 autoreload 4964 33496 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:31:35,446 autoreload 1856 33164 Watching for file changes with StatReloader
+INFO 2026-01-14 14:33:04,234 autoreload 1856 33164 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:33:04,692 autoreload 42476 29212 Watching for file changes with StatReloader
+INFO 2026-01-14 14:35:39,401 autoreload 42476 29212 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:35:39,912 autoreload 14104 30380 Watching for file changes with StatReloader
+INFO 2026-01-14 14:36:36,563 autoreload 14104 30380 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:36:37,014 autoreload 29968 14496 Watching for file changes with StatReloader
+INFO 2026-01-14 14:39:38,220 autoreload 29968 14496 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:39:38,691 autoreload 7696 32812 Watching for file changes with StatReloader
+INFO 2026-01-14 14:39:47,487 autoreload 7696 32812 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:39:47,934 autoreload 32268 35196 Watching for file changes with StatReloader
+INFO 2026-01-14 14:40:54,082 autoreload 32268 35196 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:40:54,600 autoreload 40684 26296 Watching for file changes with StatReloader
+INFO 2026-01-14 14:41:21,060 autoreload 40684 26296 D:\my_project\Django_admin\jj_system\user\urls.py changed, reloading.
+INFO 2026-01-14 14:41:21,568 autoreload 31420 19816 Watching for file changes with StatReloader
+INFO 2026-01-14 14:43:21,543 basehttp 31420 22992 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 14:52:47,546 basehttp 31420 8460 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 14:54:41,074 basehttp 31420 8460 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 14:54:48,348 basehttp 31420 8460 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 14:54:50,748 basehttp 31420 8460 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 14:54:52,229 basehttp 31420 8460 "OPTIONS /user/treeList HTTP/1.1" 200 0
+ERROR 2026-01-14 14:54:53,026 log 31420 8460 Internal Server Error: /user/treeList
+Traceback (most recent call last):
+  File "D:\soft\python\Lib\site-packages\rest_framework\fields.py", line 437, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\rest_framework\fields.py", line 104, in get_attribute
+    instance = getattr(instance, attr)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SysUser' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\soft\python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\my_project\Django_admin\jj_system\user\views.py", line 47, in get
+    serializerUserList.append(SysMenuSerializer(sysUser).data)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\rest_framework\serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\rest_framework\serializers.py", line 527, in to_representation
+    attribute = field.get_attribute(instance)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\rest_framework\fields.py", line 470, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `name` on serializer `SysMenuSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `SysUser` instance.
+Original exception text was: 'SysUser' object has no attribute 'name'.
+ERROR 2026-01-14 14:54:53,108 basehttp 31420 8460 "GET /user/treeList HTTP/1.1" 500 108191
+INFO 2026-01-14 14:58:11,473 autoreload 31420 19816 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 14:58:11,954 autoreload 40796 14752 Watching for file changes with StatReloader
+INFO 2026-01-14 14:58:22,985 basehttp 40796 41824 "POST /user/login?username=admin&password=1234567&rememberMe=true HTTP/1.1" 200 5215
+INFO 2026-01-14 14:58:26,340 basehttp 40796 41824 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 14:58:32,747 basehttp 40796 41824 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 14:58:42,510 basehttp 40796 41824 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 14:58:43,542 basehttp 40796 41824 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 14:58:44,934 basehttp 40796 41824 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 14:58:45,784 basehttp 40796 41824 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 14:58:47,555 basehttp 40796 41824 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 14:59:48,396 autoreload 42572 6852 Watching for file changes with StatReloader
+INFO 2026-01-14 15:00:16,499 basehttp 42572 19220 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 15:00:23,057 basehttp 42572 19220 "POST /user/login?username=admin&password=1234567&rememberMe=true HTTP/1.1" 200 5215
+INFO 2026-01-14 15:00:29,711 basehttp 42572 19220 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 15:00:33,543 basehttp 42572 19220 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:00:36,827 basehttp 42572 19220 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:00:37,694 basehttp 42572 19220 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:00:41,057 basehttp 42572 19220 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:00:42,579 basehttp 42572 19220 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:00:48,016 basehttp 42572 19220 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:01:44,176 basehttp 42572 19220 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:01:47,932 basehttp 42572 19220 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:04:42,210 autoreload 42572 6852 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 15:04:42,661 autoreload 14004 19640 Watching for file changes with StatReloader
+INFO 2026-01-14 15:04:48,661 basehttp 14004 42528 "GET /user/treeList HTTP/1.1" 200 555
+INFO 2026-01-14 15:05:19,283 basehttp 14004 42528 "GET /user/treeList HTTP/1.1" 200 555
+INFO 2026-01-14 15:05:43,066 basehttp 14004 42528 "OPTIONS /user/search HTTP/1.1" 200 0
+INFO 2026-01-14 15:05:46,573 basehttp 14004 42528 "POST /user/search HTTP/1.1" 200 7519
+INFO 2026-01-14 15:06:53,522 autoreload 14004 19640 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 15:06:54,008 autoreload 28216 28892 Watching for file changes with StatReloader
+INFO 2026-01-14 15:06:59,768 basehttp 28216 31548 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 15:07:03,620 basehttp 28216 31548 "GET /user/treeList HTTP/1.1" 200 555
+INFO 2026-01-14 15:07:57,335 autoreload 28216 28892 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 15:07:57,781 autoreload 39140 22648 Watching for file changes with StatReloader
+INFO 2026-01-14 15:08:00,420 basehttp 39140 18960 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:08:02,079 basehttp 39140 18960 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 15:09:31,867 autoreload 39140 22648 D:\my_project\Django_admin\jj_system\menu\views.py changed, reloading.
+INFO 2026-01-14 15:09:32,299 autoreload 41240 23716 Watching for file changes with StatReloader
+INFO 2026-01-14 15:09:36,725 basehttp 41240 41628 "POST /role/search HTTP/1.1" 200 1298
+INFO 2026-01-14 15:09:41,690 basehttp 41240 41628 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 15:09:42,399 basehttp 41240 41628 "GET /role/menus?id=2 HTTP/1.1" 200 36
+INFO 2026-01-14 15:10:08,158 autoreload 41240 23716 D:\my_project\Django_admin\jj_system\menu\views.py changed, reloading.
+INFO 2026-01-14 15:10:08,617 autoreload 33224 34868 Watching for file changes with StatReloader
+INFO 2026-01-14 15:10:10,200 basehttp 33224 30268 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 15:10:10,699 basehttp 33224 30268 "GET /role/menus?id=2 HTTP/1.1" 200 36
+INFO 2026-01-14 15:10:50,372 autoreload 33224 34868 D:\my_project\Django_admin\jj_system\menu\views.py changed, reloading.
+INFO 2026-01-14 15:10:50,870 autoreload 38588 24472 Watching for file changes with StatReloader
+INFO 2026-01-14 15:17:27,723 autoreload 38588 24472 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 15:17:28,179 autoreload 42228 26936 Watching for file changes with StatReloader
+INFO 2026-01-14 15:17:31,129 basehttp 42228 35892 "OPTIONS /event/search HTTP/1.1" 200 0
+INFO 2026-01-14 15:17:32,126 basehttp 42228 35892 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 15:17:34,083 basehttp 42228 35892 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:17:36,224 basehttp 42228 35892 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:18:03,806 autoreload 42228 26936 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 15:18:04,233 autoreload 35788 18244 Watching for file changes with StatReloader
+INFO 2026-01-14 15:18:07,827 basehttp 35788 39400 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:19:42,245 basehttp 35788 39400 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:21:37,034 autoreload 35788 18244 D:\my_project\Django_admin\jj_system\event\urls.py changed, reloading.
+INFO 2026-01-14 15:21:37,484 autoreload 24556 32880 Watching for file changes with StatReloader
+INFO 2026-01-14 15:21:53,149 basehttp 24556 36160 "GET /user/treeList HTTP/1.1" 200 559
+ERROR 2026-01-14 15:21:53,500 log 24556 36160 Internal Server Error: /event/menus
+Traceback (most recent call last):
+  File "D:\soft\python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\my_project\Django_admin\jj_system\event\views.py", line 165, in get
+    eventIdList = [m['event_id'] for m in eventList]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\my_project\Django_admin\jj_system\event\views.py", line 165, in <listcomp>
+    eventIdList = [m['event_id'] for m in eventList]
+                   ~^^^^^^^^^^^^
+KeyError: 'event_id'
+ERROR 2026-01-14 15:21:53,578 basehttp 24556 36160 "GET /event/menus?id=16 HTTP/1.1" 500 80215
+INFO 2026-01-14 15:21:57,449 basehttp 24556 36160 "OPTIONS /user/login?username=admin&password=1234567&rememberMe=true HTTP/1.1" 200 0
+INFO 2026-01-14 15:21:57,886 basehttp 24556 36160 "POST /user/login?username=admin&password=1234567&rememberMe=true HTTP/1.1" 200 5215
+INFO 2026-01-14 15:24:01,934 autoreload 24556 32880 D:\my_project\Django_admin\jj_system\event\views.py changed, reloading.
+INFO 2026-01-14 15:24:02,398 autoreload 26384 27376 Watching for file changes with StatReloader
+INFO 2026-01-14 15:24:08,664 basehttp 26384 41344 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 15:24:10,386 basehttp 26384 41344 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:24:10,775 basehttp 26384 41344 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 15:24:15,999 basehttp 26384 41344 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:24:16,374 basehttp 26384 41344 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 15:24:16,906 basehttp 26384 41344 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:24:16,908 basehttp 26384 41344 "OPTIONS /event/menus?id=15 HTTP/1.1" 200 0
+INFO 2026-01-14 15:24:17,387 basehttp 26384 41344 "GET /event/menus?id=15 HTTP/1.1" 200 32
+INFO 2026-01-14 15:24:22,664 basehttp 26384 41344 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:24:23,062 basehttp 26384 41344 "GET /event/menus?id=15 HTTP/1.1" 200 32
+INFO 2026-01-14 15:24:24,287 basehttp 26384 41344 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:24:24,742 basehttp 26384 41344 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 15:24:51,662 basehttp 26384 41344 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:24:52,237 basehttp 26384 41344 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 15:25:11,203 basehttp 26384 41344 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:25:12,153 basehttp 26384 41344 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 15:25:12,875 basehttp 26384 7916 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:25:13,714 basehttp 26384 7916 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 15:27:03,154 autoreload 26384 27376 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 15:27:03,681 autoreload 36156 37772 Watching for file changes with StatReloader
+INFO 2026-01-14 15:27:14,493 autoreload 36156 37772 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 15:27:14,924 autoreload 27128 42156 Watching for file changes with StatReloader
+INFO 2026-01-14 15:27:20,335 basehttp 27128 40428 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 15:27:22,201 basehttp 27128 40428 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:27:22,692 basehttp 27128 40428 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 15:27:25,861 basehttp 27128 40428 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:27:26,371 basehttp 27128 40428 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 15:27:27,101 basehttp 27128 40428 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:27:27,508 basehttp 27128 40428 "GET /event/menus?id=15 HTTP/1.1" 200 32
+INFO 2026-01-14 15:27:28,919 basehttp 27128 40428 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:27:29,407 basehttp 27128 40428 "GET /event/menus?id=15 HTTP/1.1" 200 32
+INFO 2026-01-14 15:27:29,779 basehttp 27128 22592 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:27:29,782 basehttp 27128 22592 "OPTIONS /event/menus?id=7 HTTP/1.1" 200 0
+INFO 2026-01-14 15:27:30,209 basehttp 27128 22592 "GET /event/menus?id=7 HTTP/1.1" 200 32
+INFO 2026-01-14 15:27:33,031 basehttp 27128 22592 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:27:33,517 basehttp 27128 22592 "GET /event/menus?id=7 HTTP/1.1" 200 32
+INFO 2026-01-14 15:27:35,431 basehttp 27128 22592 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:27:35,433 basehttp 27128 22592 "OPTIONS /event/menus?id=3 HTTP/1.1" 200 0
+INFO 2026-01-14 15:27:36,281 basehttp 27128 22592 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 15:27:39,653 basehttp 27128 22592 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:27:40,095 basehttp 27128 22592 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 15:28:02,417 autoreload 27128 42156 D:\my_project\Django_admin\jj_system\event\views.py changed, reloading.
+INFO 2026-01-14 15:28:02,871 autoreload 28780 42512 Watching for file changes with StatReloader
+INFO 2026-01-14 15:30:01,155 basehttp 28780 21620 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:30:01,754 basehttp 28780 21620 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 15:30:14,595 basehttp 28780 21620 "GET /user/treeList HTTP/1.1" 200 559
+INFO 2026-01-14 15:30:15,510 basehttp 28780 21620 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 15:31:02,172 autoreload 28780 42512 D:\my_project\Django_admin\jj_system\user\models.py changed, reloading.
+INFO 2026-01-14 15:31:02,618 autoreload 14508 33060 Watching for file changes with StatReloader
+INFO 2026-01-14 15:31:08,716 basehttp 14508 34872 "GET /user/treeList HTTP/1.1" 200 577
+INFO 2026-01-14 15:31:09,593 basehttp 14508 34872 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 15:31:10,318 basehttp 14508 42300 "GET /user/treeList HTTP/1.1" 200 577
+INFO 2026-01-14 15:31:11,285 basehttp 14508 42300 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 15:36:13,505 basehttp 14508 9740 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 15:36:30,970 basehttp 14508 9740 "OPTIONS /role/search HTTP/1.1" 200 0
+INFO 2026-01-14 15:36:31,980 basehttp 14508 9740 "POST /role/search HTTP/1.1" 200 1298
+INFO 2026-01-14 15:36:34,141 basehttp 14508 9740 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 15:36:35,017 basehttp 14508 9740 "GET /role/menus?id=2 HTTP/1.1" 200 36
+INFO 2026-01-14 15:36:43,425 basehttp 14508 9740 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 15:36:44,301 basehttp 14508 9740 "GET /role/menus?id=2 HTTP/1.1" 200 36
+INFO 2026-01-14 15:39:14,179 autoreload 14508 33060 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 15:39:15,110 autoreload 1864 36648 Watching for file changes with StatReloader
+INFO 2026-01-14 15:39:23,160 basehttp 1864 27204 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 15:39:25,249 basehttp 1864 27204 "GET /user/treeList HTTP/1.1" 200 577
+INFO 2026-01-14 15:39:25,968 basehttp 1864 27204 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 15:39:37,664 basehttp 1864 27204 "GET /user/treeList HTTP/1.1" 200 577
+INFO 2026-01-14 15:39:38,433 basehttp 1864 27204 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 15:50:47,243 basehttp 1864 41932 "POST /role/search HTTP/1.1" 200 1298
+INFO 2026-01-14 15:50:52,416 basehttp 1864 41932 "POST /user/search HTTP/1.1" 200 7519
+INFO 2026-01-14 15:50:57,362 basehttp 1864 41932 "OPTIONS /role/listAll HTTP/1.1" 200 0
+INFO 2026-01-14 15:50:57,671 basehttp 1864 41932 "GET /role/listAll HTTP/1.1" 200 1286
+INFO 2026-01-14 15:50:59,546 basehttp 1864 41932 "GET /role/listAll HTTP/1.1" 200 1286
+INFO 2026-01-14 15:51:00,263 basehttp 1864 41932 "OPTIONS /user/dept/list HTTP/1.1" 200 0
+INFO 2026-01-14 15:51:00,264 basehttp 1864 17648 "OPTIONS /user/post/list HTTP/1.1" 200 0
+INFO 2026-01-14 15:51:00,266 basehttp 1864 10020 "OPTIONS /user/level/list HTTP/1.1" 200 0
+INFO 2026-01-14 15:51:00,650 basehttp 1864 41932 "GET /user/dept/list HTTP/1.1" 200 492
+INFO 2026-01-14 15:51:00,687 basehttp 1864 17648 "GET /user/post/list HTTP/1.1" 200 1020
+INFO 2026-01-14 15:51:00,724 basehttp 1864 10020 "GET /user/level/list HTTP/1.1" 200 174
+INFO 2026-01-14 15:51:00,727 basehttp 1864 10020 "OPTIONS /user/action?id=29 HTTP/1.1" 200 0
+INFO 2026-01-14 15:51:01,197 basehttp 1864 10020 "GET /user/action?id=29 HTTP/1.1" 200 571
+INFO 2026-01-14 15:51:54,447 basehttp 1864 41932 "GET /user/level/list HTTP/1.1" 200 174
+INFO 2026-01-14 15:51:54,447 basehttp 1864 10020 "GET /user/dept/list HTTP/1.1" 200 492
+INFO 2026-01-14 15:51:54,447 basehttp 1864 17648 "GET /user/post/list HTTP/1.1" 200 1020
+INFO 2026-01-14 15:51:54,936 basehttp 1864 17648 "GET /user/action?id=29 HTTP/1.1" 200 571
+INFO 2026-01-14 15:52:07,881 basehttp 1864 41932 "GET /user/level/list HTTP/1.1" 200 174
+INFO 2026-01-14 15:52:07,884 basehttp 1864 10020 "GET /user/post/list HTTP/1.1" 200 1020
+INFO 2026-01-14 15:52:07,884 basehttp 1864 17648 "GET /user/dept/list HTTP/1.1" 200 492
+INFO 2026-01-14 15:52:08,595 basehttp 1864 17648 "GET /user/action?id=29 HTTP/1.1" 200 571
+INFO 2026-01-14 15:52:11,197 basehttp 1864 17648 "OPTIONS /user/save HTTP/1.1" 200 0
+INFO 2026-01-14 15:52:11,952 basehttp 1864 17648 "POST /user/save HTTP/1.1" 200 13
+INFO 2026-01-14 15:52:14,050 basehttp 1864 17648 "POST /user/search HTTP/1.1" 200 7537
+INFO 2026-01-14 15:52:19,080 basehttp 1864 17648 "POST /user/search HTTP/1.1" 200 7041
+INFO 2026-01-14 15:52:25,817 basehttp 1864 17648 "POST /user/search HTTP/1.1" 200 7229
+INFO 2026-01-14 15:52:29,937 basehttp 1864 17648 "POST /user/search HTTP/1.1" 200 753
+INFO 2026-01-14 15:56:39,799 autoreload 1864 36648 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 15:56:40,293 autoreload 21248 22616 Watching for file changes with StatReloader
+INFO 2026-01-14 15:56:51,149 autoreload 21248 22616 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 15:56:51,582 autoreload 14348 36064 Watching for file changes with StatReloader
+INFO 2026-01-14 15:57:01,049 basehttp 14348 18968 "POST /user/search HTTP/1.1" 200 7534
+INFO 2026-01-14 15:57:25,589 basehttp 14348 18968 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 15:57:27,844 basehttp 14348 18968 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 15:57:28,340 basehttp 14348 18968 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 15:57:34,594 basehttp 14348 18968 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 15:57:35,388 basehttp 14348 18968 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:01:48,753 basehttp 14348 18968 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:01:49,483 basehttp 14348 18968 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:01:52,107 basehttp 14348 18968 "OPTIONS /event/grant HTTP/1.1" 200 0
+WARNING 2026-01-14 16:01:52,836 log 14348 18968 Not Found: /event/grant
+WARNING 2026-01-14 16:01:52,836 basehttp 14348 18968 "POST /event/grant HTTP/1.1" 404 5685
+INFO 2026-01-14 16:01:56,315 basehttp 14348 18968 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:01:56,880 basehttp 14348 18968 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:01:57,503 basehttp 14348 18968 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:01:58,088 basehttp 14348 18968 "GET /event/menus?id=15 HTTP/1.1" 200 32
+INFO 2026-01-14 16:01:58,648 basehttp 14348 18968 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:01:59,289 basehttp 14348 18968 "GET /event/menus?id=15 HTTP/1.1" 200 32
+INFO 2026-01-14 16:01:59,582 basehttp 14348 27332 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:02:00,302 basehttp 14348 27332 "GET /event/menus?id=7 HTTP/1.1" 200 32
+INFO 2026-01-14 16:02:00,399 basehttp 14348 18968 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:02:00,926 basehttp 14348 18968 "GET /event/menus?id=7 HTTP/1.1" 200 32
+INFO 2026-01-14 16:02:01,109 basehttp 14348 27332 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:02:01,609 basehttp 14348 27332 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 16:02:02,499 basehttp 14348 27332 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:02:02,889 basehttp 14348 27332 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 16:02:03,372 basehttp 14348 27332 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:02:03,848 basehttp 14348 27332 "GET /event/menus?id=7 HTTP/1.1" 200 32
+INFO 2026-01-14 16:02:12,337 basehttp 14348 27332 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:02:12,837 basehttp 14348 27332 "GET /event/menus?id=7 HTTP/1.1" 200 32
+INFO 2026-01-14 16:03:34,914 basehttp 14348 27332 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:03:35,870 basehttp 14348 27332 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 16:03:36,428 basehttp 14348 18968 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:03:37,156 basehttp 14348 18968 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 16:06:48,589 basehttp 14348 3380 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:06:48,593 basehttp 14348 3380 "OPTIONS /event/menus?id=16 HTTP/1.1" 200 0
+INFO 2026-01-14 16:06:49,548 basehttp 14348 3380 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:06:52,025 basehttp 14348 3380 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:06:52,914 basehttp 14348 3380 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:06:52,988 basehttp 14348 25380 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:06:53,948 basehttp 14348 25380 "GET /event/menus?id=15 HTTP/1.1" 200 32
+INFO 2026-01-14 16:06:54,356 basehttp 14348 3380 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:06:55,315 basehttp 14348 3380 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:06:55,392 basehttp 14348 25380 "GET /event/menus?id=15 HTTP/1.1" 200 32
+INFO 2026-01-14 16:06:56,269 basehttp 14348 3380 "GET /event/menus?id=7 HTTP/1.1" 200 32
+INFO 2026-01-14 16:06:56,491 basehttp 14348 25380 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:06:57,389 basehttp 14348 25380 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:06:57,469 basehttp 14348 3380 "GET /event/menus?id=7 HTTP/1.1" 200 32
+INFO 2026-01-14 16:06:58,294 basehttp 14348 25380 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 16:06:58,755 basehttp 14348 3380 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:06:59,580 basehttp 14348 3380 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 16:07:00,143 basehttp 14348 3380 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:07:00,691 basehttp 14348 3380 "GET /event/menus?id=7 HTTP/1.1" 200 32
+INFO 2026-01-14 16:07:02,829 basehttp 14348 3380 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:07:03,229 basehttp 14348 3380 "GET /event/menus?id=7 HTTP/1.1" 200 32
+INFO 2026-01-14 16:07:03,978 basehttp 14348 3380 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:07:04,504 basehttp 14348 3380 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 16:07:05,326 basehttp 14348 3380 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:07:05,754 basehttp 14348 3380 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 16:07:31,947 basehttp 14348 3380 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:07:32,598 basehttp 14348 3380 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:08:04,096 autoreload 14348 36064 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:08:04,541 autoreload 16112 29036 Watching for file changes with StatReloader
+INFO 2026-01-14 16:08:12,183 basehttp 16112 26652 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:08:12,810 basehttp 16112 26652 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:08:13,827 basehttp 16112 26652 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:08:16,186 basehttp 16112 26652 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:08:16,824 basehttp 16112 26652 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:08:21,088 basehttp 16112 26652 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:08:21,619 basehttp 16112 26652 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:09:00,866 autoreload 16112 29036 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:09:01,508 autoreload 14604 5940 Watching for file changes with StatReloader
+INFO 2026-01-14 16:09:04,271 basehttp 14604 34496 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:09:07,312 basehttp 14604 34496 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:09:08,266 basehttp 14604 34496 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:09:38,544 basehttp 14604 34496 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:09:39,109 basehttp 14604 34496 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:10:09,407 autoreload 14604 5940 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:10:09,894 autoreload 14304 23272 Watching for file changes with StatReloader
+INFO 2026-01-14 16:10:14,365 basehttp 14304 12464 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:10:17,388 basehttp 14304 12464 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:10:17,830 basehttp 14304 12464 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:10:26,741 basehttp 14304 12464 "GET /user/treeList HTTP/1.1" 200 573
+INFO 2026-01-14 16:10:27,463 basehttp 14304 12464 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:10:32,852 autoreload 14304 23272 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:10:33,287 autoreload 29276 42228 Watching for file changes with StatReloader
+INFO 2026-01-14 16:10:35,890 basehttp 29276 14444 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:10:36,591 basehttp 29276 14444 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:10:37,942 basehttp 29276 14444 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:10:38,823 basehttp 29276 14444 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:11:51,957 autoreload 29276 42228 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:11:52,386 autoreload 37004 13532 Watching for file changes with StatReloader
+INFO 2026-01-14 16:11:59,094 basehttp 37004 18152 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:12:02,908 basehttp 37004 18152 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:12:03,328 basehttp 37004 18152 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:12:34,796 autoreload 37004 13532 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:12:35,214 autoreload 36448 3904 Watching for file changes with StatReloader
+INFO 2026-01-14 16:12:37,871 basehttp 36448 30440 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:12:38,388 basehttp 36448 30440 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:12:40,158 basehttp 36448 30440 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:12:41,937 basehttp 36448 30440 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:12:42,907 basehttp 36448 30440 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:16:30,018 basehttp 36448 30440 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:16:30,547 basehttp 36448 30440 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:16:31,533 basehttp 36448 30440 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:18:20,493 autoreload 36448 3904 D:\my_project\Django_admin\jj_system\user\models.py changed, reloading.
+INFO 2026-01-14 16:18:20,949 autoreload 42584 1524 Watching for file changes with StatReloader
+INFO 2026-01-14 16:18:28,715 autoreload 42584 1524 D:\my_project\Django_admin\jj_system\user\models.py changed, reloading.
+INFO 2026-01-14 16:18:29,150 autoreload 38588 22372 Watching for file changes with StatReloader
+INFO 2026-01-14 16:18:36,849 autoreload 38588 22372 D:\my_project\Django_admin\jj_system\user\models.py changed, reloading.
+INFO 2026-01-14 16:18:37,290 autoreload 40172 27220 Watching for file changes with StatReloader
+INFO 2026-01-14 16:18:57,457 autoreload 40172 27220 D:\my_project\Django_admin\jj_system\user\models.py changed, reloading.
+INFO 2026-01-14 16:18:57,893 autoreload 26800 27056 Watching for file changes with StatReloader
+INFO 2026-01-14 16:20:40,561 autoreload 26800 27056 D:\my_project\Django_admin\jj_system\user\models.py changed, reloading.
+INFO 2026-01-14 16:20:41,008 autoreload 21612 38916 Watching for file changes with StatReloader
+INFO 2026-01-14 16:20:48,249 basehttp 21612 40432 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:20:49,920 basehttp 21612 40432 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:20:50,490 basehttp 21612 40432 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:20:53,961 basehttp 21612 40432 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:20:54,682 basehttp 21612 40432 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:20:59,082 basehttp 21612 40432 "POST /user/login?username=admin&password=1234567&rememberMe=true HTTP/1.1" 200 5248
+INFO 2026-01-14 16:21:02,418 basehttp 21612 40432 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:21:04,330 basehttp 21612 40432 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:21:05,050 basehttp 21612 40432 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:21:05,942 basehttp 21612 40432 "GET /user/treeList HTTP/1.1" 200 29
+INFO 2026-01-14 16:21:06,813 basehttp 21612 40432 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:21:20,336 autoreload 21612 38916 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:21:20,766 autoreload 1524 42584 Watching for file changes with StatReloader
+INFO 2026-01-14 16:21:23,682 basehttp 1524 33384 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:21:25,214 basehttp 1524 33384 "GET /user/treeList HTTP/1.1" 200 591
+INFO 2026-01-14 16:21:25,650 basehttp 1524 33384 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:22:19,742 autoreload 1524 42584 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:22:20,167 autoreload 5292 15828 Watching for file changes with StatReloader
+INFO 2026-01-14 16:22:43,596 basehttp 5292 26812 "GET /user/treeList HTTP/1.1" 200 591
+INFO 2026-01-14 16:22:44,158 basehttp 5292 26812 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:22:44,936 basehttp 5292 26812 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:22:47,208 basehttp 5292 26812 "GET /user/treeList HTTP/1.1" 200 591
+INFO 2026-01-14 16:22:47,752 basehttp 5292 26812 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:23:14,177 autoreload 5292 15828 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:23:14,629 autoreload 24612 5092 Watching for file changes with StatReloader
+INFO 2026-01-14 16:23:15,838 basehttp 24612 32836 "GET /user/treeList HTTP/1.1" 200 591
+INFO 2026-01-14 16:23:16,318 basehttp 24612 32836 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:23:18,000 basehttp 24612 32836 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:24:27,243 autoreload 24612 5092 D:\my_project\Django_admin\jj_system\menu\views.py changed, reloading.
+INFO 2026-01-14 16:24:27,670 autoreload 38916 21612 Watching for file changes with StatReloader
+INFO 2026-01-14 16:24:28,975 basehttp 38916 34224 "POST /role/search HTTP/1.1" 200 1298
+INFO 2026-01-14 16:24:31,224 basehttp 38916 34224 "OPTIONS /menu/treeList HTTP/1.1" 200 0
+INFO 2026-01-14 16:24:31,669 basehttp 38916 34224 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 16:24:31,683 basehttp 38916 34224 "OPTIONS /role/menus?id=2 HTTP/1.1" 200 0
+INFO 2026-01-14 16:24:32,099 basehttp 38916 34224 "GET /role/menus?id=2 HTTP/1.1" 200 36
+INFO 2026-01-14 16:25:14,913 autoreload 38916 21612 D:\my_project\Django_admin\jj_system\menu\views.py changed, reloading.
+INFO 2026-01-14 16:25:15,365 autoreload 31188 11052 Watching for file changes with StatReloader
+INFO 2026-01-14 16:25:17,020 basehttp 31188 21872 "POST /role/search HTTP/1.1" 200 1298
+INFO 2026-01-14 16:25:20,424 basehttp 31188 21872 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 16:25:20,438 basehttp 31188 21872 "OPTIONS /role/menus?id=30 HTTP/1.1" 200 0
+INFO 2026-01-14 16:25:20,885 basehttp 31188 21872 "GET /role/menus?id=30 HTTP/1.1" 200 40
+INFO 2026-01-14 16:25:48,546 basehttp 31188 21872 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 16:25:48,884 basehttp 31188 21872 "GET /role/menus?id=30 HTTP/1.1" 200 40
+INFO 2026-01-14 16:25:50,713 basehttp 31188 21872 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:26:12,254 basehttp 31188 21872 "GET /user/treeList HTTP/1.1" 200 591
+INFO 2026-01-14 16:26:12,691 basehttp 31188 21872 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:28:57,607 basehttp 31188 21872 "GET /user/treeList HTTP/1.1" 200 591
+INFO 2026-01-14 16:28:58,565 basehttp 31188 21872 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:29:00,338 basehttp 31188 21872 "POST /role/search HTTP/1.1" 200 1298
+INFO 2026-01-14 16:29:01,981 basehttp 31188 21872 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 16:29:02,750 basehttp 31188 21872 "GET /role/menus?id=2 HTTP/1.1" 200 36
+INFO 2026-01-14 16:29:17,168 basehttp 31188 21872 "GET /menu/treeList HTTP/1.1" 200 4276
+INFO 2026-01-14 16:29:17,744 basehttp 31188 21872 "GET /role/menus?id=2 HTTP/1.1" 200 36
+INFO 2026-01-14 16:29:18,486 basehttp 31188 30060 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:29:23,964 basehttp 31188 30060 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:29:25,710 basehttp 31188 30060 "GET /user/treeList HTTP/1.1" 200 591
+INFO 2026-01-14 16:29:26,380 basehttp 31188 30060 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:29:44,443 autoreload 31188 11052 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:29:44,907 autoreload 29556 33440 Watching for file changes with StatReloader
+INFO 2026-01-14 16:29:48,730 basehttp 29556 9976 "GET /user/treeList HTTP/1.1" 200 1133
+INFO 2026-01-14 16:29:49,227 basehttp 29556 9976 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:29:50,034 basehttp 29556 9976 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:29:52,616 basehttp 29556 9976 "GET /user/treeList HTTP/1.1" 200 1133
+INFO 2026-01-14 16:29:53,024 basehttp 29556 9976 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:35:00,127 autoreload 29556 33440 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:35:00,723 autoreload 3380 21364 Watching for file changes with StatReloader
+INFO 2026-01-14 16:35:16,643 autoreload 3380 21364 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:35:17,081 autoreload 23536 15048 Watching for file changes with StatReloader
+INFO 2026-01-14 16:35:25,876 autoreload 23536 15048 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:35:26,314 autoreload 27000 28360 Watching for file changes with StatReloader
+INFO 2026-01-14 16:35:30,078 basehttp 27000 9760 "GET /user/treeList HTTP/1.1" 200 18644
+INFO 2026-01-14 16:35:30,546 basehttp 27000 9760 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:35:31,648 basehttp 27000 9760 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:35:41,286 basehttp 27000 9760 "GET /user/treeList HTTP/1.1" 200 18644
+INFO 2026-01-14 16:35:41,772 basehttp 27000 9760 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:36:58,080 basehttp 27000 30836 "GET /user/treeList HTTP/1.1" 200 18644
+INFO 2026-01-14 16:36:59,043 basehttp 27000 30836 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:37:26,796 basehttp 27000 30836 "GET /user/treeList HTTP/1.1" 200 18644
+INFO 2026-01-14 16:37:27,675 basehttp 27000 30836 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 16:37:32,243 basehttp 27000 30836 "GET /user/treeList HTTP/1.1" 200 18644
+INFO 2026-01-14 16:37:33,196 basehttp 27000 30836 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 16:37:33,354 basehttp 27000 29236 "GET /user/treeList HTTP/1.1" 200 18644
+INFO 2026-01-14 16:37:34,236 basehttp 27000 29236 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:37:37,198 basehttp 27000 29236 "GET /user/treeList HTTP/1.1" 200 18644
+INFO 2026-01-14 16:37:38,077 basehttp 27000 29236 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:38:36,003 basehttp 27000 29236 "POST /user/search HTTP/1.1" 200 7534
+INFO 2026-01-14 16:38:46,807 basehttp 27000 29236 "POST /user/search HTTP/1.1" 200 7041
+INFO 2026-01-14 16:38:58,684 basehttp 27000 29236 "POST /user/search HTTP/1.1" 200 7223
+ERROR 2026-01-14 16:39:13,690 log 27000 29236 Internal Server Error: /user/search
+Traceback (most recent call last):
+  File "D:\soft\python\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\views\generic\base.py", line 144, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\my_project\Django_admin\jj_system\user\views.py", line 356, in post
+    userListPage = Paginator(user_queryset, pageSize).page(pageNum)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\core\paginator.py", line 89, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\soft\python\Lib\site-packages\django\core\paginator.py", line 71, in validate_number
+    raise EmptyPage(self.error_messages["no_results"])
+django.core.paginator.EmptyPage: 本页结果为空
+ERROR 2026-01-14 16:39:13,761 basehttp 27000 29236 "POST /user/search HTTP/1.1" 500 84698
+INFO 2026-01-14 16:39:17,846 basehttp 27000 29236 "POST /user/login?username=admin&password=1234567&rememberMe=true HTTP/1.1" 200 5248
+INFO 2026-01-14 16:39:25,355 basehttp 27000 29236 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:39:27,516 basehttp 27000 29236 "GET /user/treeList HTTP/1.1" 200 18644
+INFO 2026-01-14 16:39:28,475 basehttp 27000 29236 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:40:44,353 autoreload 27000 28360 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:40:45,024 autoreload 15568 38428 Watching for file changes with StatReloader
+INFO 2026-01-14 16:40:48,515 basehttp 15568 30188 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:40:50,312 basehttp 15568 30188 "GET /user/treeList HTTP/1.1" 200 109
+INFO 2026-01-14 16:40:50,810 basehttp 15568 30188 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:40:54,397 basehttp 15568 30188 "GET /user/treeList HTTP/1.1" 200 109
+INFO 2026-01-14 16:40:55,222 basehttp 15568 30188 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:41:00,553 basehttp 15568 30188 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:41:02,790 basehttp 15568 30188 "GET /user/treeList HTTP/1.1" 200 109
+INFO 2026-01-14 16:41:03,232 basehttp 15568 30188 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:41:06,473 basehttp 15568 30188 "GET /user/treeList HTTP/1.1" 200 109
+INFO 2026-01-14 16:41:07,192 basehttp 15568 30188 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:41:44,164 autoreload 15568 38428 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:41:44,610 autoreload 33664 5572 Watching for file changes with StatReloader
+INFO 2026-01-14 16:41:50,250 basehttp 33664 34224 "GET /user/treeList HTTP/1.1" 200 18644
+INFO 2026-01-14 16:41:50,838 basehttp 33664 34224 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:43:19,853 autoreload 33664 5572 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:43:20,308 autoreload 1524 36776 Watching for file changes with StatReloader
+INFO 2026-01-14 16:43:22,065 basehttp 1524 4164 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:43:25,906 basehttp 1524 4164 "GET /user/treeList HTTP/1.1" 200 18644
+INFO 2026-01-14 16:43:26,691 basehttp 1524 4164 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:44:01,420 autoreload 1524 36776 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:44:01,932 autoreload 10116 24744 Watching for file changes with StatReloader
+INFO 2026-01-14 16:44:03,992 basehttp 10116 37864 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:44:06,950 basehttp 10116 37864 "GET /user/treeList HTTP/1.1" 200 18644
+INFO 2026-01-14 16:44:07,909 basehttp 10116 37864 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:44:55,417 autoreload 10116 24744 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:44:55,852 autoreload 4592 34172 Watching for file changes with StatReloader
+INFO 2026-01-14 16:44:58,392 basehttp 4592 4452 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:45:00,517 basehttp 4592 4452 "GET /user/treeList HTTP/1.1" 200 79
+INFO 2026-01-14 16:45:00,928 basehttp 4592 4452 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:45:09,027 basehttp 4592 4452 "GET /user/treeList HTTP/1.1" 200 79
+INFO 2026-01-14 16:45:09,774 basehttp 4592 4452 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:45:10,385 basehttp 4592 38836 "GET /user/treeList HTTP/1.1" 200 79
+INFO 2026-01-14 16:45:10,984 basehttp 4592 38836 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:46:27,277 autoreload 4592 34172 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:46:27,774 autoreload 22380 26948 Watching for file changes with StatReloader
+INFO 2026-01-14 16:48:12,508 autoreload 22380 26948 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:48:13,138 autoreload 31112 17832 Watching for file changes with StatReloader
+INFO 2026-01-14 16:48:50,253 autoreload 31112 17832 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:48:50,902 autoreload 38624 3372 Watching for file changes with StatReloader
+INFO 2026-01-14 16:49:01,973 basehttp 38624 17436 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:49:04,236 basehttp 38624 17436 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 16:49:04,999 basehttp 38624 17436 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:50:12,408 autoreload 3272 1000 Watching for file changes with StatReloader
+INFO 2026-01-14 16:50:17,333 basehttp 3272 13988 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:50:22,125 basehttp 3272 13988 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 16:50:22,915 basehttp 3272 13988 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:52:11,960 autoreload 3272 1000 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:52:12,427 autoreload 28972 9760 Watching for file changes with StatReloader
+INFO 2026-01-14 16:54:09,960 basehttp 28972 11236 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 16:54:10,460 basehttp 28972 11236 - Broken pipe from ('192.168.111.77', 51532)
+INFO 2026-01-14 16:54:11,102 basehttp 28972 7916 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:54:25,291 autoreload 28972 9760 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:54:25,727 autoreload 33224 30544 Watching for file changes with StatReloader
+INFO 2026-01-14 16:54:29,452 basehttp 33224 7520 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:54:31,335 basehttp 33224 7520 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 16:54:32,134 basehttp 33224 7520 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:54:57,229 autoreload 33224 30544 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:54:57,663 autoreload 27132 32016 Watching for file changes with StatReloader
+INFO 2026-01-14 16:54:59,427 basehttp 27132 42844 "OPTIONS /user/treeList HTTP/1.1" 200 0
+INFO 2026-01-14 16:55:00,054 basehttp 27132 42844 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 16:55:00,627 basehttp 27132 42844 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:55:02,527 basehttp 27132 42844 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:55:04,846 basehttp 27132 42844 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 16:55:05,333 basehttp 27132 42844 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 16:55:45,283 autoreload 27132 32016 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:55:45,740 autoreload 28568 17900 Watching for file changes with StatReloader
+INFO 2026-01-14 16:56:31,020 autoreload 28568 17900 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 16:56:31,502 autoreload 30968 5128 Watching for file changes with StatReloader
+INFO 2026-01-14 16:56:33,396 basehttp 30968 37052 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 16:56:38,286 basehttp 30968 37052 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 16:56:39,002 basehttp 30968 37052 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 17:02:27,573 basehttp 30968 34820 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 17:02:33,007 basehttp 30968 34820 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 17:02:35,655 basehttp 30968 34820 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:02:36,777 basehttp 30968 34820 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 17:03:29,088 basehttp 30968 34820 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:03:30,040 basehttp 30968 34820 "GET /event/menus?id=16 HTTP/1.1" 200 37
+WARNING 2026-01-14 17:03:36,780 log 30968 34820 Not Found: /event/grant
+WARNING 2026-01-14 17:03:36,780 basehttp 30968 34820 "POST /event/grant HTTP/1.1" 404 5685
+INFO 2026-01-14 17:06:45,166 autoreload 30968 5128 D:\my_project\Django_admin\jj_system\event\views.py changed, reloading.
+INFO 2026-01-14 17:06:45,632 autoreload 32776 12060 Watching for file changes with StatReloader
+INFO 2026-01-14 17:07:30,644 autoreload 33240 23840 Watching for file changes with StatReloader
+INFO 2026-01-14 17:07:36,311 basehttp 33240 27932 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 17:07:40,996 basehttp 33240 27932 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:07:41,527 basehttp 33240 27932 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 17:07:50,075 basehttp 33240 27932 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:07:50,681 basehttp 33240 27932 "GET /event/menus?id=15 HTTP/1.1" 200 32
+INFO 2026-01-14 17:07:56,366 basehttp 33240 27932 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:07:57,249 basehttp 33240 27932 "GET /event/menus?id=7 HTTP/1.1" 200 32
+INFO 2026-01-14 17:08:07,845 basehttp 33240 27932 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:08:08,748 basehttp 33240 27932 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 17:10:04,825 autoreload 33240 23840 D:\my_project\Django_admin\jj_system\user\views.py changed, reloading.
+INFO 2026-01-14 17:10:05,322 autoreload 29812 10436 Watching for file changes with StatReloader
+INFO 2026-01-14 17:10:07,888 basehttp 29812 24292 "POST /event/search HTTP/1.1" 200 1426
+INFO 2026-01-14 17:10:37,368 basehttp 29812 24292 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:10:37,721 basehttp 29812 24292 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 17:10:43,965 basehttp 29812 24292 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:10:44,808 basehttp 29812 24292 "GET /event/menus?id=15 HTTP/1.1" 200 32
+INFO 2026-01-14 17:10:46,441 basehttp 29812 24292 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:10:47,113 basehttp 29812 24292 "GET /event/menus?id=7 HTTP/1.1" 200 32
+INFO 2026-01-14 17:10:48,361 basehttp 29812 24292 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:10:49,238 basehttp 29812 24292 "GET /event/menus?id=15 HTTP/1.1" 200 32
+INFO 2026-01-14 17:10:54,031 basehttp 29812 24292 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:10:54,802 basehttp 29812 24292 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 17:10:56,919 basehttp 29812 24292 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:10:57,603 basehttp 29812 24292 "GET /event/menus?id=16 HTTP/1.1" 200 37
+INFO 2026-01-14 17:11:07,721 basehttp 29812 24292 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:11:08,217 basehttp 29812 24292 "GET /event/menus?id=3 HTTP/1.1" 200 32
+INFO 2026-01-14 17:11:15,960 basehttp 29812 24292 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:11:16,838 basehttp 29812 24292 "GET /event/menus?id=16 HTTP/1.1" 200 37
+WARNING 2026-01-14 17:11:25,595 log 29812 24292 Not Found: /event/grant
+WARNING 2026-01-14 17:11:25,595 basehttp 29812 24292 "POST /event/grant HTTP/1.1" 404 5685
+INFO 2026-01-14 17:13:06,677 basehttp 29812 24292 "GET /user/treeList HTTP/1.1" 200 18662
+INFO 2026-01-14 17:13:07,556 basehttp 29812 24292 "GET /event/menus?id=16 HTTP/1.1" 200 37

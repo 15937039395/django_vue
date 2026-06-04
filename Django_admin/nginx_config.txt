@@ -1,0 +1,41 @@
+# Nginx配置文件 - /etc/nginx/sites-available/jj_system
+
+server {
+    listen 80;
+    server_name xxxxxxx;
+    
+    # 前端静态文件
+    location / {
+        root /var/www/vue3_admin/dist;
+        try_files $uri $uri/ /index.html;
+        index index.html;
+    }
+    
+    # 媒体文件服务 - 关键配置！
+    location /media/ {
+        alias /var/www/jj_system/media/;
+        expires 30d;
+        access_log off;
+        # 确保Nginx有权限读取文件
+        autoindex on;
+    }
+    
+    # 静态文件服务
+    location /static/ {
+        alias /var/www/jj_system/static/;
+        expires 30d;
+        access_log off;
+    }
+    
+    # 后端API代理
+    location ~ ^/(user|role|menu|level|post|department|repository|event|classify|items|blacklist|manhour|files|approval)/ {
+        proxy_pass http://127.0.0.1:8000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        
+        # 上传文件大小限制
+        client_max_body_size 50M;
+    }
+}
